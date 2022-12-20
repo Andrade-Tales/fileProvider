@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageIv"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_baseline_image_24" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter text">
+        <EditText
+            android:id="@+id/textEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapSentences|textMultiLine" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--Button:  Share text -->
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/shareTextBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Share Text" />
+
+    <!--Button:  Share image -->
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/shareImgBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share Image" />
+
+    <!--Button:  Share text & image -->
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/shareBothBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share Image &amp; Text" />
+
+</LinearLayout>
