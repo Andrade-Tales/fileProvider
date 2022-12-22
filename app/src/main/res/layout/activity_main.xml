@@ -19,7 +19,7 @@
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter text">
+        android:hint="Entre com texto">
         <EditText
             android:id="@+id/textEt"
             android:layout_width="match_parent"
@@ -34,7 +34,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Share Text" />
+        android:text="Compartilhar texto" />
 
     <!--Button:  Share image -->
 
@@ -42,7 +42,7 @@
         android:id="@+id/shareImgBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Share Image" />
+        android:text="Compartilhar imagem" />
 
     <!--Button:  Share text & image -->
 
@@ -50,6 +50,6 @@
         android:id="@+id/shareBothBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Share Image &amp; Text" />
+        android:text="Compartilhar imagem  &amp; texto" />
 
 </LinearLayout>
